@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'DOORSFONTV2';
+    src: url('fonts/DOORSFONTV2.ttf') format('truetype');
+
+    font-family: 'superstar';
+    src: url('fonts/superstar.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'superstar', sans-serif;
+    font-size: 150px;
+}
+
+p {
+   font-family: 'superstar', sans-serif;
+   font-size: 35px;
+}
+
+button {
+    background-color: #fe11a6;
+    border: none;
+    padding: 20px 40px;
+    font-family: Rblxdoorsnewfont, sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    button:hover {
+        background-color: #a20167;
+    }
